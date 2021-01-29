@@ -1,0 +1,31 @@
+.paymentSection {
+  position: relative;
+}
+
+.paymentContainer {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  margin: 75px;
+}
+
+.paymentContact {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  margin: 75px;
+}
+.paymentAddress {
+  text-align: center;
+  color: #005249;
+}
+
+@media screen and(min-width:920px) {
+  .paymentSection {
+    display: flex;
+  }
+
+  .paymentContainer {
+    display: flex;
+  }
+}
